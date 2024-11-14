@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    height: 400px; 
+    width: 200px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flex-child {
+    background-color: orangered;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    flex: 0 1 auto;
+    align-self: start; 
+}
